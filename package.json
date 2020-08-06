@@ -2,6 +2,9 @@
   "name": "express-locallibrary-tutorial",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "12.18.3"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "NODE_ENV=development nodemon ./bin/www",
@@ -24,5 +27,18 @@
   },
   "devDependencies": {
     "nodemon": "2.0.4"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drcberry/express-locallibrary-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drcberry/express-locallibrary-tutorial/issues"
+  },
+  "homepage": "https://github.com/drcberry/express-locallibrary-tutorial#readme",
+  "description": ""
 }
