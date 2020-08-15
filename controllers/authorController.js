@@ -145,10 +145,10 @@ exports.author_delete_post = function(req, res, next) {
         }
         else {
             // Author has no books. Delete object and redirect to the list of authors.
-            Genre.findByIdAndRemove(req.body.genreid, function deleteGenre(err) {
+            Author.findByIdAndRemove(req.body.authorid, function deleteAuthor(err) {
                 if (err) { return next(err); }
                 // Success - go to author list
-                res.redirect('/catalog/genres')
+                res.redirect('/catalog/authors')
             });
         }
     });
