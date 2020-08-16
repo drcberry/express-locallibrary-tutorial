@@ -4,9 +4,10 @@ block content
       
   if show_list
     p The following genres have already been created. If you would like to add another genre, use the form below.
-    div#genre-list
+    ul#genre-list
       each genre in genre_list
-        a.genre-item(href=genre.url) #{genre.name}
+        li
+          a(href=genre.url) #{genre.name}
     
   form(method='POST' action='')
     div.form-group
