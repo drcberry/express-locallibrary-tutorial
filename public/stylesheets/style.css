@@ -20,6 +20,7 @@ body {
 h1,h2,h3 {
   font-family: "Grenze Gotisch", Arial, sans-serif;
   font-weight: 400;
+  text-transform: capitalize;
 }
 h1 {
   font-size: 2.2rem;
@@ -34,7 +35,7 @@ h3 {
   color: var(--h1-color);
 }
 h4 {
-  font: 1.4rem "Gentium Book Basic", Arial, sans-serif;
+  font: 1.2rem "Gentium Book Basic", Arial, sans-serif;
   color: var(--h2-color);
 }
 a {
