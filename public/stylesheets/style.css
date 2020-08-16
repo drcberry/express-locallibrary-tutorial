@@ -65,15 +65,21 @@ form button {
   font-weight: bold;
   text-transform: uppercase;
   width: 20%;
-  border: 2px groove var(--h1-color);
+  border: 1px groove var(--h1-color);
   border-radius: 12px;
   background: var(--link-color);
   color: var(--text-color);
-  
 }
 form button:hover {
   border-color: var(--h2-color);
   background: var(--h1-color);
+}
+input {
+  font-weight: bold;
+}
+textarea {
+  font-size: 1rem;
+  font-weight: bold;
 }
 .container {
   display: grid;
@@ -83,7 +89,6 @@ form button:hover {
     "header header"
     "sidebar main"
     "footer footer";
-  
 }
 .header {
   grid-area: header;
